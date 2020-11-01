@@ -8,7 +8,7 @@ It is just a basic application with currently there being no good privacy like h
 The chat displays the senders email address too and displays your google profile photo
 
 ## Some Images:-
-! [Login Page] (https://user-images.githubusercontent.com/45504169/97798048-85074000-1c48-11eb-9d54-419c0ffb4bf7.png)
+![Login Page] (https://user-images.githubusercontent.com/45504169/97798048-85074000-1c48-11eb-9d54-419c0ffb4bf7.png)
 ![Main Page] (https://user-images.githubusercontent.com/45504169/97798114-242c3780-1c49-11eb-8cbb-114e5b232159.png)
 
 
