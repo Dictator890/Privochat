@@ -1,3 +1,17 @@
+**Privochat**
+
+This project is just a simple chat application developed using Firebase and React
+
+It contains functionality of sending and receiving realtime chat messages,authentication,logout and send messages using shift+Enter
+
+It is just a basic application with currently there being no good privacy like having seprate chats as everyone can see every chat
+The chat displays the senders email address too and displays your google profile photo
+
+## Some Images:-
+! [Login Page] (https://user-images.githubusercontent.com/45504169/97798048-85074000-1c48-11eb-9d54-419c0ffb4bf7.png)
+![Main Page] (https://user-images.githubusercontent.com/45504169/97798114-242c3780-1c49-11eb-8cbb-114e5b232159.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
