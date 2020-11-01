@@ -1,0 +1,5 @@
+.ChatArea {
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-height: 85vh;
+}

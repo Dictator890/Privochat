@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: var(--secondaryBackground);
+}
+p {
+  color: white;
+}
+.ChatContainer {
+  overflow-y: auto;
+  max-height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+  }
+}

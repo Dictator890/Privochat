@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap");
+* {
+  margin: 0px;
+  font-family: "Comic Neue", cursive;
+}
+.App {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  height: 100vh;
+  max-height: 100vh;
+  overflow-y: auto;
+  background-color: var(--primaryBackground);
+  grid-template-columns: 30vw 70vw;
+}
+
+::-webkit-scrollbar {
+  width: 0.3vw;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--primaryBackground);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.leftBodyWidth {
+  width: 25vw;
+}
+.rightBodyWidth {
+  width: 75vw;
+}

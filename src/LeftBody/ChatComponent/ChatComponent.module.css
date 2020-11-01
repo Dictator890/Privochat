@@ -1,0 +1,62 @@
+.container {
+  background-color: var(--secondaryBackground);
+  padding: 10px;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 15% 75% 10%;
+  margin: 0.5vh;
+  cursor: pointer;
+  max-height: 8vh;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--primaryBackground);
+  transition: box-shadow 0.3s;
+  user-select: none;
+  overflow-x: hidden;
+}
+.container:hover {
+  box-shadow: 5px 5px 10px 7px #000000;
+  background-color: var(--primaryBackground);
+}
+
+.profilePhoto {
+  background-color: var(--textColor);
+  width: 35px;
+  height: 35px;
+  border: 0;
+  border-radius: 5px;
+
+  align-self: center;
+}
+.profileName {
+  font-size: var(--secondaryFontSize);
+  margin-left: 5%;
+  align-self: center;
+
+  width: 100%;
+}
+.lastTime {
+  color: var(--lowEmphasisTextColor) !important;
+  font-size: var(--tertiaryFontSize);
+}
+.lastTime p {
+  color: inherit;
+  margin-left: 20px;
+}
+.lastMessage {
+  color: var(--lowEmphasisTextColor);
+  font-size: var(--tertiaryFontSize);
+  letter-spacing: 1px;
+}
+.informationArea {
+  display: grid;
+  grid-template-rows: 40% 30%;
+  width: 50%;
+}
+.spacing {
+  margin-top: 2px;
+}
+a {
+  margin: 0px !important;
+  text-decoration: none;
+}

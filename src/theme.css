@@ -1,0 +1,14 @@
+:root {
+  --primaryBackground: #121212;
+  --secondaryBackground: #1a1a1a;
+  --shadowColor: #0f0f0f;
+  --chatReceive: #039be5;
+  --chatSend: #ff5252;
+  --placeholder: #d1d1d1;
+  --textColor: #ffffff;
+  --lowEmphasisTextColor: #d1d1d1;
+  --primaryFontSize: 18px;
+  --HeaderFontSize: 22px;
+  --secondaryFontSize: 16px;
+  --tertiaryFontSize: 12px;
+}

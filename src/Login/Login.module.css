@@ -1,0 +1,92 @@
+.coverageScreen {
+  color: var(--textColor);
+  background-color: var(--primaryBackground);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: auto;
+  user-select: none;
+}
+.MenuBar {
+  display: flex;
+  height: 7%;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  align-items: center;
+  background-color: var(--secondaryBackground);
+}
+.icon {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 50%;
+}
+.image {
+  width: 50px;
+  height: 50px;
+  max-height: 100%;
+  margin-right: 10px;
+}
+.Title {
+  margin: 0px;
+}
+.LoginButton {
+  background-color: var(--chatSend);
+  border: 0px;
+  height: 100%;
+  margin-top: 5px;
+  border-radius: 3px;
+  width: 10%;
+  font-size: var(--primaryFontSize);
+  outline: none;
+  cursor: pointer;
+}
+.descImage {
+  width: 30vw;
+  opacity: 0.9;
+
+  margin-left: 10%;
+}
+.bodyArea {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  align-items: center;
+}
+.description {
+  font-size: var(--HeaderFontSize);
+  display: flex;
+  flex-direction: column;
+}
+.description h3 {
+  margin-top: 2%;
+}
+a {
+  margin-left: 88vw;
+}
+
+@media screen and (max-width: 768px) {
+  .MenuBar {
+    flex-direction: column;
+    height: 17vh;
+  }
+  .LoginButton {
+    width: 30%;
+  }
+  .bodyArea {
+    display: block;
+  }
+  .descImage {
+    width: 100vw;
+    margin: 0%;
+  }
+  .description {
+    font-size: var(--HeaderFontSize);
+    text-align: center;
+  }
+  a {
+    margin-left: 28vw;
+  }
+}

@@ -1,0 +1,9 @@
+.RightBody {
+  display: flex;
+  flex-direction: column;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: var(--secondaryBackground);
+  max-height: 100vh;
+  overflow: hidden;
+}

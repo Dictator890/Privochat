@@ -1,0 +1,65 @@
+.BottomArea {
+  height: 7vh;
+  padding: 1vh;
+  top: 9999px;
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: var(--secondaryBackground);
+}
+.image {
+  margin-right: 2%;
+}
+.iconproperty {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  user-select: none;
+}
+.inputarea {
+  height: 70%;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 7px;
+  outline-style: none;
+  width: 95%;
+  border: 0;
+  background-color: var(--primaryBackground);
+  color: var(--textColor);
+  font-size: var(--primaryFontSize);
+  background-color: var(--secondaryBackground);
+  overflow-y: auto;
+  resize: none;
+}
+.chatInputContainer {
+  width: 90%;
+  height: 100%;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+}
+.send {
+  margin-left: 10px;
+}
+::-webkit-scrollbar {
+  width: 0vw;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--primaryBackground);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
